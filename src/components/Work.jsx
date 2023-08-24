@@ -1,6 +1,6 @@
 // import React from 'react'
 import Project2 from "../assets/project2.png";
-import Project3 from "../assets/project3.png";
+import Project from "../assets/project.png";
 import Project4 from "../assets/project4.png";
 import Project5 from "../assets/project5.png";
 import Project6 from "../assets/project6.png";
@@ -35,12 +35,12 @@ const Work = () => {
                 }
               </p>
               <div className="pt-5 text-center">
-                <a href="https://topgs.repl.co/" className="">
+                <a href="https://topgs.repl.co/" target="_blank" rel="noreferrer" className="">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
                     demo
                   </button>
                 </a>
-                <a href="https://github.com/ruthietut/TopGs" className="">
+                <a href="https://github.com/ruthietut/TopGs" target="_blank" rel="noreferrer" className="">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
                     code
                   </button>
@@ -49,21 +49,27 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${Project3})` }}
+            style={{ backgroundImage: `url(${Project})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center max-auto content-div">
             {/*hover effect */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
                 React js application
               </span>
-
+              <p className="flex px-4 text-white ">
+                {
+                  "My portfolio built with React.js showcases my journey, skills, and passion. Here's to embracing innovation and limitless possibilities! "
+                }
+              </p>
               <div className="pt-8 text-center">
-                <a href="" className="">
+                <a href="https://ruth-obasi-portfolio.vercel.app/" target="_blank" rel="noreferrer" className="">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
                     demo
                   </button>
                 </a>
-                <a href="" className="">
+                <a
+                  href="https://github.com/ruthietut/portfolio-react-app" target="_blank" rel="noreferrer"
+                  className="">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
                     code
                   </button>
@@ -86,14 +92,14 @@ const Work = () => {
               </p>
               <div className="pt-5 text-center">
                 <a
-                  href="https://altschool-second-semester.web.app/"
+                  href="https://altschool-second-semester.web.app/" target="_blank" rel="noreferrer"
                   className="">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
                     demo
                   </button>
                 </a>
                 <a
-                  href="https://github.com/ruthietut/Altschool-second-semester-exam"
+                  href="https://github.com/ruthietut/Altschool-second-semester-exam" target="_blank" rel="noreferrer"
                   className="">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
                     code
@@ -117,14 +123,14 @@ const Work = () => {
               </p>
               <div className="pt-5 text-center">
                 <a
-                  href="https://altschool-capstone-project-scissors.vercel.app/"
+                  href="https://altschool-capstone-project-scissors.vercel.app/" target="_blank" rel="noreferrer"
                   className="">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
                     demo
                   </button>
                 </a>
                 <a
-                  href="https://github.com/ruthietut/Altschool-capstone-project"
+                  href="https://github.com/ruthietut/Altschool-capstone-project" target="_blank" rel="noreferrer"
                   className="">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
                     code
@@ -147,13 +153,13 @@ const Work = () => {
                 }
               </p>
               <div className="pt-5 text-center">
-                <a href="https://autodocuments.vercel.app/" className="">
+                <a href="https://autodocuments.vercel.app/" target="_blank" rel="noreferrer" className="">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
                     demo
                   </button>
                 </a>
                 <a
-                  href="https://github.com/ruthietut/autodocuments"
+                  href="https://github.com/ruthietut/autodocuments" target="_blank" rel="noreferrer"
                   className="">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
                     code
@@ -176,13 +182,13 @@ const Work = () => {
                 }
               </p>
               <div className="pt-5 text-center">
-                <a href="https://ruthiecounterapp.netlify.app/" className="">
+                <a href="https://ruthiecounterapp.netlify.app/" target="_blank" rel="noreferrer" className="">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
                     demo
                   </button>
                 </a>
                 <a
-                  href="https://github.com/ruthietut/counter-3rd-semester-exam"
+                  href="https://github.com/ruthietut/counter-3rd-semester-exam" target="_blank" rel="noreferrer"
                   className="">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
                     code
